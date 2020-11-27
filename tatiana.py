@@ -70,11 +70,3 @@ buttoncal = tk.Button(root,text="Submit",command=insert).place(x=30,y=370)
 
 root.mainloop()
   
-import tkinter as tk
-from functools import partial
-import mysql.connector
-from datetime import datetime
-from PIL import Image
-from tkinter import *
-import pandas as pd
-import mysql
